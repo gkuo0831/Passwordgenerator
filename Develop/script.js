@@ -1,43 +1,14 @@
+//promts, eventlistener,
+
 // User variables:
-var enter;
-var confirmUppercase;
-var confirmLowercase;
-var confirmNumber;
-var confirmCharacter;
+var confirmUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var confirmCharacter = "!@#$%^&*()";
 
 //Numeric numbers:
-number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+var confirmNumber = "0123456789";
 
 // Alphabet:
-alphabet = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-];
-
+var confirmLowercase = "abcdefghijklmnopqrstuvwxyz";
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -50,7 +21,7 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   // ask for user input
-  enter = parseInt(
+  generateBtn = parseInt(
     prompt(
       "How many characters would you like your password to be? Choose between 8 and 128."
     )
