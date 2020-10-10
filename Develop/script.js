@@ -49,3 +49,8 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
+  // ask for user input
+  enter = parseInt(
+    prompt("How many characters would you like your password to be?")
+  );
+}
