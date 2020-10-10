@@ -51,6 +51,8 @@ function writePassword() {
 
   // ask for user input
   enter = parseInt(
-    prompt("How many characters would you like your password to be?")
+    prompt(
+      "How many characters would you like your password to be? Choose between 8 and 128."
+    )
   );
 }
