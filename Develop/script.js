@@ -2,13 +2,11 @@
 
 // User variables:
 var confirmUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var confirmCharacter = "!@#$%^&*()";
-
-//Numeric numbers:
-var confirmNumber = "0123456789";
-
-// Alphabet:
 var confirmLowercase = "abcdefghijklmnopqrstuvwxyz";
+var confirmCharacter = "!#$%&‘()*+,-./:;<=>?@[]^_`{|}~";
+var confirmNumber = "0123456789";
+var userChoice = [];
+var password = [];
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
