@@ -32,4 +32,9 @@ function writePassword() {
   let upperCase = confirm(
     "Would you like upper case letters in your password?"
   );
+  if (upperCase) {
+    userChoice.push(...confirmUppercase);
+  }
+  console.log(upperCase);
+  console.log(userChoice);
 }
