@@ -65,5 +65,5 @@ function writePassword() {
     console.log(password.join("+"));
   }
   let passwordText = document.getElementById("password");
-  passwordText.val;
+  passwordText.value = password.join("");
 }
