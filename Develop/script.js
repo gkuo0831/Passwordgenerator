@@ -74,5 +74,7 @@ function writePassword() {
   var mq = window.matchMedia("@media all and (max-width: 700px)");
   if (mq.matches) {
     // the width of browser is more than 700px
+  } else {
+    //width of browser is less than 700px
   }
 }
