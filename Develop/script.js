@@ -21,8 +21,15 @@ function writePassword() {
   // ask for user input
   let length = prompt(
     "What would you like the length of your password to be? Choose between 8-128 characters."
-  );  if (length < 8) {
+  );
+  if (length < 8) {
     alert("Password is too short!");
     return;
   }
   console.log(length);
+  //add in for password too long
+
+  let upperCase = confirm(
+    "Would you like upper case letters in your password?"
+  );
+}
