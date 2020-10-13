@@ -62,5 +62,6 @@ function writePassword() {
 
   for (let i = 0; i < length; i++) {
     password.push(userChoice[Math.floor(Math.random() * userChoice.length)]);
+    console.log(password.join("+"));
   }
 }
