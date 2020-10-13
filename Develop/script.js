@@ -41,4 +41,8 @@ function writePassword() {
   let lowerCase = confirm(
     "Would you like lower case letters in your password?"
   );
+  if (lowerCase) {
+    userChoice.push(...confirmLowercase);
+  }
+  console.log(userChoice);
 }
