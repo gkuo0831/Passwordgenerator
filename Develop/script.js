@@ -70,4 +70,9 @@ function writePassword() {
   }
   let passwordText = document.getElementById("password");
   passwordText.value = password.join("");
+
+  var mq = window.matchMedia("@media all and (max-width: 700px)");
+  if (mq.matches) {
+    // the width of browser is more than 700px
+  }
 }
