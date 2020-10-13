@@ -7,4 +7,4 @@ When the "generate password" button is clicked, the user will be asked to chose 
 # Links:
 
 - Github repository: https://github.com/gkuo0831/Passwordgenerator
-- Application:
+- Application: https://gkuo0831.github.io/Passwordgenerator/
