@@ -26,6 +26,10 @@ function writePassword() {
     alert("Password is too short!");
     return;
   }
+  if (length > 128) {
+    alert("Password is too long!");
+    return;
+  }
   console.log(length);
   //add in for password too long
 
