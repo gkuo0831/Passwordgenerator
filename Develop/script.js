@@ -64,4 +64,6 @@ function writePassword() {
     password.push(userChoice[Math.floor(Math.random() * userChoice.length)]);
     console.log(password.join("+"));
   }
+  let passwordText = document.getElementById("password");
+  passwordText.val;
 }
