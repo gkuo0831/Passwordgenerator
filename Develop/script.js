@@ -51,4 +51,11 @@ function writePassword() {
     userChoice.push(...confirmNumber);
   }
   console.log(userChoice);
+
+  let characters = confirm(
+    "Would you like special characters in your password?"
+  );
+  if (characters) {
+    userChoice.push(...confirmCharacter);
+  }
 }
