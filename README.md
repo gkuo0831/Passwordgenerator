@@ -9,4 +9,8 @@ When the "generate password" button is clicked, the user will be asked to chose 
 - Github repository: https://github.com/gkuo0831/Passwordgenerator
 - Application: https://gkuo0831.github.io/Passwordgenerator/
 
+# Preview:
+
 ![Screen Shot 2020-10-13 at 12 45 03 PM](https://user-images.githubusercontent.com/68671968/95903398-54bc3800-0d53-11eb-9b8a-c18debc05eba.png)
+![Screen Shot 2020-10-13 at 12 45 10 PM](https://user-images.githubusercontent.com/68671968/95903605-9d73f100-0d53-11eb-9aee-c0f5e8e74b3e.png)
+![Screen Shot 2020-10-13 at 12 45 18 PM](https://user-images.githubusercontent.com/68671968/95903616-a1077800-0d53-11eb-96f7-d355698105a6.png)
