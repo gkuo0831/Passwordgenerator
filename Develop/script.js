@@ -37,4 +37,8 @@ function writePassword() {
   }
   console.log(upperCase);
   console.log(userChoice);
+
+  let lowerCase = confirm(
+    "Would you like lower case letters in your password?"
+  );
 }
