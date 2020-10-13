@@ -58,4 +58,5 @@ function writePassword() {
   if (characters) {
     userChoice.push(...confirmCharacter);
   }
+  console.log(userChoice);
 }
