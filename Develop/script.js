@@ -59,4 +59,8 @@ function writePassword() {
     userChoice.push(...confirmCharacter);
   }
   console.log(userChoice);
+
+  for (let i = 0; i < length; i++) {
+    password.push(userChoice[Math.floor(Math.random() * userChoice.length)]);
+  }
 }
