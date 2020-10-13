@@ -45,4 +45,10 @@ function writePassword() {
     userChoice.push(...confirmLowercase);
   }
   console.log(userChoice);
+
+  let number = confirm("Would you like numbers in your password?");
+  if (number) {
+    userChoice.push(...confirmNumber);
+  }
+  console.log(userChoice);
 }
